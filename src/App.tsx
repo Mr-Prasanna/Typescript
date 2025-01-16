@@ -1,18 +1,14 @@
 
 import './App.css'
+import Users from './Users'
 
-let name:string = "Guru";
-let age:number = 25;
-let isDisable:boolean= true
-let ages:number[]=[1,2,3,]
-let users:any = 'u1';
-users=1
 
 function App() {
 
   return (
     <>
-     
+     <Users name={"Guru"} age={25} isMarried={false}/>
+     <Users name={"Arun"} age={27} isMarried={true}/>
     </>
   )
 }
